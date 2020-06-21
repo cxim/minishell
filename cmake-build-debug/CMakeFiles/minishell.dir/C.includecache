@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cxim1/unix/minishell/ft_printf/includes/libft/libft.h
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+fcntl.h
+-
+
+/home/cxim1/unix/minishell/ft_printf/includes/libft/new_gnl.c
+libft.h
+/home/cxim1/unix/minishell/ft_printf/includes/libft/libft.h
+

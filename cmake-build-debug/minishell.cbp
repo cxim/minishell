@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="minishell"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cxim1/unix/minishell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cxim1/unix/minishell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cxim1/unix/minishell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minishell">
+				<Option output="/home/cxim1/unix/minishell/cmake-build-debug/minishell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cxim1/unix/minishell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cxim1/unix/minishell/."/>
+					<Add directory="/home/cxim1/unix/minishell/ft_printf/includes"/>
+					<Add directory="/home/cxim1/unix/minishell/ft_printf/includes/libft"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 minishell"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minishell/fast">
+				<Option output="/home/cxim1/unix/minishell/cmake-build-debug/minishell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cxim1/unix/minishell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cxim1/unix/minishell/."/>
+					<Add directory="/home/cxim1/unix/minishell/ft_printf/includes"/>
+					<Add directory="/home/cxim1/unix/minishell/ft_printf/includes/libft"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 minishell/fast"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/cxim1/unix/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_atoi.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_bzero.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_char_in_string.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_count_if.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_cut_space.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_get_integer.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_isalnum.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_isalpha.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_isascii.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_isdigit.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_isprint.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_isspace.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_itoa.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_itoa_long.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_lstadd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_lstdel.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_lstdelone.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_lstiter.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_lstmap.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_lstnew.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_memalloc.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_memccpy.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_memchr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_memcmp.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_memcpy.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_memdel.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_memfree.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_memmove.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_memset.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_new_integer_list.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_numzero.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_print_symbol.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putchar.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putchar_fd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putchar_mod.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putendl.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putendl_fd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putnbr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putnbr_fd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putstr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putstr_fd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_putstr_mod.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_split.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_sqrt.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_str_is_num.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strcat.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strchr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strclr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strcmp.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strcpy.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strdel.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strdup.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strequ.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_striter.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_striteri.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strjoin.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strlcat.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strlen.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strlen_mod.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strlen_unilsymb.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strmap.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strmapi.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strncat.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strncmp.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strncpy.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strnequ.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strnew.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strnstr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strrchr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strsplit.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strsplit_len.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strstr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strsub.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_strtrim.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_tolower.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_toupper.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_word_count.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/get_next_line.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/libft.h">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/new_gnl.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/printf.h">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/base_n_p.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/bonus_color.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/bonus_fd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/bonus_smile.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/color_option.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/format_checker.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/format_checker_one.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/ft_printf.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/ft_printf_one.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/print_some_wight_aruc.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_i_one.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_i_two.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_uxo_po_one.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_uxo_po_two.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_uxo_pt_one.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_errors.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_f_one.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_f_three.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_f_two.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_flags.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_floats.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_form_x.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_format_char_str.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_int.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_o.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_p.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_u.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_uxo_part_one.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_uxo_part_two.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_x_big.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/main.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/minishell.h">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
