@@ -16,7 +16,27 @@ string.h
 fcntl.h
 -
 
-/home/cxim1/unix/minishell/ft_printf/includes/libft/new_gnl.c
-libft.h
+/home/cxim1/unix/minishell/ft_printf/includes/printf.h
+stdio.h
+-
+unistd.h
+-
+stdarg.h
+-
+fcntl.h
+-
+libft/libft.h
 /home/cxim1/unix/minishell/ft_printf/includes/libft/libft.h
+
+/home/cxim1/unix/minishell/main.c
+minishell.h
+/home/cxim1/unix/minishell/minishell.h
+stdio.h
+-
+sys/types.h
+-
+
+/home/cxim1/unix/minishell/minishell.h
+ft_printf/includes/printf.h
+/home/cxim1/unix/minishell/ft_printf/includes/printf.h
 

@@ -6,7 +6,10 @@
 #define MINISHELL_MINISHELL_H
 # include "ft_printf/includes/printf.h"
 
+typedef struct	s_env
+{
+	char 	**my_env;
+}				t_env;
 
-int		get_next_line2(int fd, char **line);
-
+void	free_arr(char **arr);
 #endif //MINISHELL_MINISHELL_H

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/minishell.dir/free.c.o"
   "CMakeFiles/minishell.dir/ft_printf/includes/libft/ft_atoi.c.o"
   "CMakeFiles/minishell.dir/ft_printf/includes/libft/ft_bzero.c.o"
   "CMakeFiles/minishell.dir/ft_printf/includes/libft/ft_char_in_string.c.o"

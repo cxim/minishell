@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/cxim1/unix/minishell/free.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/free.c.o"
   "/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_atoi.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_printf/includes/libft/ft_atoi.c.o"
   "/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_bzero.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_printf/includes/libft/ft_bzero.c.o"
   "/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_char_in_string.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_printf/includes/libft/ft_char_in_string.c.o"

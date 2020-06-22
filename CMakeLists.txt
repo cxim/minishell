@@ -120,4 +120,5 @@ add_executable(minishell
     ft_printf/srcs/work_with_uxo_part_two.c
     ft_printf/srcs/work_with_x_big.c
     main.c
+    free.c
     minishell.h)

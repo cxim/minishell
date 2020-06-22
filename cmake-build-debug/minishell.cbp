@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cxim1/unix/minishell/free.c">
+			<Option target="minishell"/>
+		</Unit>
 		<Unit filename="/home/cxim1/unix/minishell/ft_printf/includes/libft/ft_atoi.c">
 			<Option target="minishell"/>
 		</Unit>
