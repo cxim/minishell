@@ -114,7 +114,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/cxim1/unix/minishell/ft_printf/srcs/work_with_uxo_part_one.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_printf/srcs/work_with_uxo_part_one.c.o"
   "/home/cxim1/unix/minishell/ft_printf/srcs/work_with_uxo_part_two.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_printf/srcs/work_with_uxo_part_two.c.o"
   "/home/cxim1/unix/minishell/ft_printf/srcs/work_with_x_big.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/ft_printf/srcs/work_with_x_big.c.o"
+  "/home/cxim1/unix/minishell/loop.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/loop.c.o"
   "/home/cxim1/unix/minishell/main.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/main.c.o"
+  "/home/cxim1/unix/minishell/my_split.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/my_split.c.o"
+  "/home/cxim1/unix/minishell/todo_cd.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/todo_cd.c.o"
+  "/home/cxim1/unix/minishell/todo_set_env.c" "/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/minishell.dir/todo_set_env.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

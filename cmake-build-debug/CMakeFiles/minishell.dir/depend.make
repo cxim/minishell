@@ -363,8 +363,18 @@ CMakeFiles/minishell.dir/ft_printf/srcs/work_with_x_big.c.o: ../ft_printf/includ
 CMakeFiles/minishell.dir/ft_printf/srcs/work_with_x_big.c.o: ../ft_printf/includes/printf.h
 CMakeFiles/minishell.dir/ft_printf/srcs/work_with_x_big.c.o: ../ft_printf/srcs/work_with_x_big.c
 
+CMakeFiles/minishell.dir/loop.c.o: ../ft_printf/includes/libft/libft.h
+CMakeFiles/minishell.dir/loop.c.o: ../ft_printf/includes/printf.h
+CMakeFiles/minishell.dir/loop.c.o: ../loop.c
+CMakeFiles/minishell.dir/loop.c.o: ../minishell.h
+
 CMakeFiles/minishell.dir/main.c.o: ../ft_printf/includes/libft/libft.h
 CMakeFiles/minishell.dir/main.c.o: ../ft_printf/includes/printf.h
 CMakeFiles/minishell.dir/main.c.o: ../main.c
 CMakeFiles/minishell.dir/main.c.o: ../minishell.h
+
+CMakeFiles/minishell.dir/my_split.c.o: ../ft_printf/includes/libft/libft.h
+CMakeFiles/minishell.dir/my_split.c.o: ../ft_printf/includes/printf.h
+CMakeFiles/minishell.dir/my_split.c.o: ../minishell.h
+CMakeFiles/minishell.dir/my_split.c.o: ../my_split.c
 

@@ -121,4 +121,8 @@ add_executable(minishell
     ft_printf/srcs/work_with_x_big.c
     main.c
     free.c
+    loop.c
+    my_split.c
+    todo_cd.c
+    todo_set_env.c
     minishell.h)

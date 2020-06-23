@@ -418,10 +418,22 @@
 		<Unit filename="/home/cxim1/unix/minishell/ft_printf/srcs/work_with_x_big.c">
 			<Option target="minishell"/>
 		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/loop.c">
+			<Option target="minishell"/>
+		</Unit>
 		<Unit filename="/home/cxim1/unix/minishell/main.c">
 			<Option target="minishell"/>
 		</Unit>
 		<Unit filename="/home/cxim1/unix/minishell/minishell.h">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/my_split.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/todo_cd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/home/cxim1/unix/minishell/todo_set_env.c">
 			<Option target="minishell"/>
 		</Unit>
 		<Unit filename="/home/cxim1/unix/minishell/CMakeLists.txt">

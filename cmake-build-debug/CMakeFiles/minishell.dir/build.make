@@ -1500,6 +1500,58 @@ CMakeFiles/minishell.dir/free.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/free.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cxim1/unix/minishell/free.c -o CMakeFiles/minishell.dir/free.c.s
 
+CMakeFiles/minishell.dir/loop.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/loop.c.o: ../loop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/minishell.dir/loop.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/loop.c.o   -c /home/cxim1/unix/minishell/loop.c
+
+CMakeFiles/minishell.dir/loop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/loop.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cxim1/unix/minishell/loop.c > CMakeFiles/minishell.dir/loop.c.i
+
+CMakeFiles/minishell.dir/loop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/loop.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cxim1/unix/minishell/loop.c -o CMakeFiles/minishell.dir/loop.c.s
+
+CMakeFiles/minishell.dir/my_split.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/my_split.c.o: ../my_split.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/minishell.dir/my_split.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/my_split.c.o   -c /home/cxim1/unix/minishell/my_split.c
+
+CMakeFiles/minishell.dir/my_split.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/my_split.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cxim1/unix/minishell/my_split.c > CMakeFiles/minishell.dir/my_split.c.i
+
+CMakeFiles/minishell.dir/my_split.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/my_split.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cxim1/unix/minishell/my_split.c -o CMakeFiles/minishell.dir/my_split.c.s
+
+CMakeFiles/minishell.dir/todo_cd.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/todo_cd.c.o: ../todo_cd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/minishell.dir/todo_cd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/todo_cd.c.o   -c /home/cxim1/unix/minishell/todo_cd.c
+
+CMakeFiles/minishell.dir/todo_cd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/todo_cd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cxim1/unix/minishell/todo_cd.c > CMakeFiles/minishell.dir/todo_cd.c.i
+
+CMakeFiles/minishell.dir/todo_cd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/todo_cd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cxim1/unix/minishell/todo_cd.c -o CMakeFiles/minishell.dir/todo_cd.c.s
+
+CMakeFiles/minishell.dir/todo_set_env.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/todo_set_env.c.o: ../todo_set_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/minishell.dir/todo_set_env.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell.dir/todo_set_env.c.o   -c /home/cxim1/unix/minishell/todo_set_env.c
+
+CMakeFiles/minishell.dir/todo_set_env.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/todo_set_env.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cxim1/unix/minishell/todo_set_env.c > CMakeFiles/minishell.dir/todo_set_env.c.i
+
+CMakeFiles/minishell.dir/todo_set_env.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/todo_set_env.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cxim1/unix/minishell/todo_set_env.c -o CMakeFiles/minishell.dir/todo_set_env.c.s
+
 # Object files for target minishell
 minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/ft_printf/includes/libft/ft_atoi.c.o" \
@@ -1612,7 +1664,11 @@ minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/ft_printf/srcs/work_with_uxo_part_two.c.o" \
 "CMakeFiles/minishell.dir/ft_printf/srcs/work_with_x_big.c.o" \
 "CMakeFiles/minishell.dir/main.c.o" \
-"CMakeFiles/minishell.dir/free.c.o"
+"CMakeFiles/minishell.dir/free.c.o" \
+"CMakeFiles/minishell.dir/loop.c.o" \
+"CMakeFiles/minishell.dir/my_split.c.o" \
+"CMakeFiles/minishell.dir/todo_cd.c.o" \
+"CMakeFiles/minishell.dir/todo_set_env.c.o"
 
 # External object files for target minishell
 minishell_EXTERNAL_OBJECTS =
@@ -1728,9 +1784,13 @@ minishell: CMakeFiles/minishell.dir/ft_printf/srcs/work_with_uxo_part_two.c.o
 minishell: CMakeFiles/minishell.dir/ft_printf/srcs/work_with_x_big.c.o
 minishell: CMakeFiles/minishell.dir/main.c.o
 minishell: CMakeFiles/minishell.dir/free.c.o
+minishell: CMakeFiles/minishell.dir/loop.c.o
+minishell: CMakeFiles/minishell.dir/my_split.c.o
+minishell: CMakeFiles/minishell.dir/todo_cd.c.o
+minishell: CMakeFiles/minishell.dir/todo_set_env.c.o
 minishell: CMakeFiles/minishell.dir/build.make
 minishell: CMakeFiles/minishell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Linking C executable minishell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Linking C executable minishell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minishell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

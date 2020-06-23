@@ -26,7 +26,8 @@ void	copy_env(int ac, char **av, char **env, t_env *my_env)
 
 	(void)ac;
 	(void)av;
-	my_env->my_env = (char**)malloc(sizeof(char*) * (env_len(env) + 1));
+	if (!(my_env->my_env = (char**)malloc(sizeof(char*) * (env_len(env) + 1))))
+		return ;
 	i = 0;
 	while (env[i])
 	{
@@ -45,9 +46,10 @@ int		main(int ac, char **av, char **environ)
 {
 	t_env *env;
 
-	env = (t_env*)ft_memalloc(sizeof(t_env));
+	if (!(env = (t_env*)ft_memalloc(sizeof(t_env))))
+		exit(1);
 	copy_env(ac, av, environ, env);
-
+	shell_loop(env);
 	//test
 //	int i = 0;
 //	while (env->my_env[i])

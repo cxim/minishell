@@ -3093,6 +3093,33 @@ ft_printf/srcs/work_with_x_big.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/ft_printf/srcs/work_with_x_big.c.s
 .PHONY : ft_printf/srcs/work_with_x_big.c.s
 
+loop.o: loop.c.o
+
+.PHONY : loop.o
+
+# target to build an object file
+loop.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/loop.c.o
+.PHONY : loop.c.o
+
+loop.i: loop.c.i
+
+.PHONY : loop.i
+
+# target to preprocess a source file
+loop.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/loop.c.i
+.PHONY : loop.c.i
+
+loop.s: loop.c.s
+
+.PHONY : loop.s
+
+# target to generate assembly for a file
+loop.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/loop.c.s
+.PHONY : loop.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -3119,6 +3146,87 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/main.c.s
 .PHONY : main.c.s
+
+my_split.o: my_split.c.o
+
+.PHONY : my_split.o
+
+# target to build an object file
+my_split.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/my_split.c.o
+.PHONY : my_split.c.o
+
+my_split.i: my_split.c.i
+
+.PHONY : my_split.i
+
+# target to preprocess a source file
+my_split.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/my_split.c.i
+.PHONY : my_split.c.i
+
+my_split.s: my_split.c.s
+
+.PHONY : my_split.s
+
+# target to generate assembly for a file
+my_split.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/my_split.c.s
+.PHONY : my_split.c.s
+
+todo_cd.o: todo_cd.c.o
+
+.PHONY : todo_cd.o
+
+# target to build an object file
+todo_cd.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/todo_cd.c.o
+.PHONY : todo_cd.c.o
+
+todo_cd.i: todo_cd.c.i
+
+.PHONY : todo_cd.i
+
+# target to preprocess a source file
+todo_cd.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/todo_cd.c.i
+.PHONY : todo_cd.c.i
+
+todo_cd.s: todo_cd.c.s
+
+.PHONY : todo_cd.s
+
+# target to generate assembly for a file
+todo_cd.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/todo_cd.c.s
+.PHONY : todo_cd.c.s
+
+todo_set_env.o: todo_set_env.c.o
+
+.PHONY : todo_set_env.o
+
+# target to build an object file
+todo_set_env.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/todo_set_env.c.o
+.PHONY : todo_set_env.c.o
+
+todo_set_env.i: todo_set_env.c.i
+
+.PHONY : todo_set_env.i
+
+# target to preprocess a source file
+todo_set_env.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/todo_set_env.c.i
+.PHONY : todo_set_env.c.i
+
+todo_set_env.s: todo_set_env.c.s
+
+.PHONY : todo_set_env.s
+
+# target to generate assembly for a file
+todo_set_env.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/todo_set_env.c.s
+.PHONY : todo_set_env.c.s
 
 # Help Target
 help:
@@ -3459,9 +3567,21 @@ help:
 	@echo "... ft_printf/srcs/work_with_x_big.o"
 	@echo "... ft_printf/srcs/work_with_x_big.i"
 	@echo "... ft_printf/srcs/work_with_x_big.s"
+	@echo "... loop.o"
+	@echo "... loop.i"
+	@echo "... loop.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... my_split.o"
+	@echo "... my_split.i"
+	@echo "... my_split.s"
+	@echo "... todo_cd.o"
+	@echo "... todo_cd.i"
+	@echo "... todo_cd.s"
+	@echo "... todo_set_env.o"
+	@echo "... todo_set_env.i"
+	@echo "... todo_set_env.s"
 .PHONY : help
 
 

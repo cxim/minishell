@@ -109,7 +109,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell.dir/ft_printf/srcs/work_with_uxo_part_one.c.o"
   "CMakeFiles/minishell.dir/ft_printf/srcs/work_with_uxo_part_two.c.o"
   "CMakeFiles/minishell.dir/ft_printf/srcs/work_with_x_big.c.o"
+  "CMakeFiles/minishell.dir/loop.c.o"
   "CMakeFiles/minishell.dir/main.c.o"
+  "CMakeFiles/minishell.dir/my_split.c.o"
+  "CMakeFiles/minishell.dir/todo_cd.c.o"
+  "CMakeFiles/minishell.dir/todo_set_env.c.o"
   "minishell"
   "minishell.pdb"
 )
