@@ -48,10 +48,10 @@ RM = "/home/cxim1/Рабочий стол/clion-2020.1.1/bin/cmake/linux/bin/cma
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cxim1/unix/minishell
+CMAKE_SOURCE_DIR = /home/cxim1/unix/minishellfromgit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cxim1/unix/minishell/cmake-build-debug
+CMAKE_BINARY_DIR = /home/cxim1/unix/minishellfromgit/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles /home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cxim1/unix/minishellfromgit/cmake-build-debug/CMakeFiles /home/cxim1/unix/minishellfromgit/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cxim1/unix/minishell/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cxim1/unix/minishellfromgit/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,60 @@ minishell: cmake_check_build_system
 minishell/fast:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/build
 .PHONY : minishell/fast
+
+echo_exec.o: echo_exec.c.o
+
+.PHONY : echo_exec.o
+
+# target to build an object file
+echo_exec.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/echo_exec.c.o
+.PHONY : echo_exec.c.o
+
+echo_exec.i: echo_exec.c.i
+
+.PHONY : echo_exec.i
+
+# target to preprocess a source file
+echo_exec.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/echo_exec.c.i
+.PHONY : echo_exec.c.i
+
+echo_exec.s: echo_exec.c.s
+
+.PHONY : echo_exec.s
+
+# target to generate assembly for a file
+echo_exec.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/echo_exec.c.s
+.PHONY : echo_exec.c.s
+
+exec_bin.o: exec_bin.c.o
+
+.PHONY : exec_bin.o
+
+# target to build an object file
+exec_bin.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/exec_bin.c.o
+.PHONY : exec_bin.c.o
+
+exec_bin.i: exec_bin.c.i
+
+.PHONY : exec_bin.i
+
+# target to preprocess a source file
+exec_bin.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/exec_bin.c.i
+.PHONY : exec_bin.c.i
+
+exec_bin.s: exec_bin.c.s
+
+.PHONY : exec_bin.s
+
+# target to generate assembly for a file
+exec_bin.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/exec_bin.c.s
+.PHONY : exec_bin.c.s
 
 free.o: free.c.o
 
@@ -3174,6 +3228,33 @@ my_split.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/my_split.c.s
 .PHONY : my_split.c.s
 
+set_enveron.o: set_enveron.c.o
+
+.PHONY : set_enveron.o
+
+# target to build an object file
+set_enveron.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/set_enveron.c.o
+.PHONY : set_enveron.c.o
+
+set_enveron.i: set_enveron.c.i
+
+.PHONY : set_enveron.i
+
+# target to preprocess a source file
+set_enveron.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/set_enveron.c.i
+.PHONY : set_enveron.c.i
+
+set_enveron.s: set_enveron.c.s
+
+.PHONY : set_enveron.s
+
+# target to generate assembly for a file
+set_enveron.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/set_enveron.c.s
+.PHONY : set_enveron.c.s
+
 todo_cd.o: todo_cd.c.o
 
 .PHONY : todo_cd.o
@@ -3228,6 +3309,33 @@ todo_set_env.c.s:
 	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/todo_set_env.c.s
 .PHONY : todo_set_env.c.s
 
+unset_enveron.o: unset_enveron.c.o
+
+.PHONY : unset_enveron.o
+
+# target to build an object file
+unset_enveron.c.o:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/unset_enveron.c.o
+.PHONY : unset_enveron.c.o
+
+unset_enveron.i: unset_enveron.c.i
+
+.PHONY : unset_enveron.i
+
+# target to preprocess a source file
+unset_enveron.c.i:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/unset_enveron.c.i
+.PHONY : unset_enveron.c.i
+
+unset_enveron.s: unset_enveron.c.s
+
+.PHONY : unset_enveron.s
+
+# target to generate assembly for a file
+unset_enveron.c.s:
+	$(MAKE) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/unset_enveron.c.s
+.PHONY : unset_enveron.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -3237,6 +3345,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... minishell"
+	@echo "... echo_exec.o"
+	@echo "... echo_exec.i"
+	@echo "... echo_exec.s"
+	@echo "... exec_bin.o"
+	@echo "... exec_bin.i"
+	@echo "... exec_bin.s"
 	@echo "... free.o"
 	@echo "... free.i"
 	@echo "... free.s"
@@ -3576,12 +3690,18 @@ help:
 	@echo "... my_split.o"
 	@echo "... my_split.i"
 	@echo "... my_split.s"
+	@echo "... set_enveron.o"
+	@echo "... set_enveron.i"
+	@echo "... set_enveron.s"
 	@echo "... todo_cd.o"
 	@echo "... todo_cd.i"
 	@echo "... todo_cd.s"
 	@echo "... todo_set_env.o"
 	@echo "... todo_set_env.i"
 	@echo "... todo_set_env.s"
+	@echo "... unset_enveron.o"
+	@echo "... unset_enveron.i"
+	@echo "... unset_enveron.s"
 .PHONY : help
 
 

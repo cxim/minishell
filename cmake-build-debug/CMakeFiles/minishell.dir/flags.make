@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/cxim1/unix/minishell/. -I/home/cxim1/unix/minishell/ft_printf/includes -I/home/cxim1/unix/minishell/ft_printf/includes/libft 
+C_INCLUDES = -I/home/cxim1/unix/minishellfromgit/. -I/home/cxim1/unix/minishellfromgit/ft_printf/includes -I/home/cxim1/unix/minishellfromgit/ft_printf/includes/libft 
 

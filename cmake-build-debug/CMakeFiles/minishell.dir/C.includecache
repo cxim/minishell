@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/cxim1/unix/minishell/ft_printf/includes/libft/libft.h
+/home/cxim1/unix/minishellfromgit/ft_printf/includes/libft/libft.h
 unistd.h
 -
 stdlib.h
@@ -16,7 +16,7 @@ string.h
 fcntl.h
 -
 
-/home/cxim1/unix/minishell/ft_printf/includes/printf.h
+/home/cxim1/unix/minishellfromgit/ft_printf/includes/printf.h
 stdio.h
 -
 unistd.h
@@ -26,13 +26,17 @@ stdarg.h
 fcntl.h
 -
 libft/libft.h
-/home/cxim1/unix/minishell/ft_printf/includes/libft/libft.h
+/home/cxim1/unix/minishellfromgit/ft_printf/includes/libft/libft.h
 
-/home/cxim1/unix/minishell/loop.c
+/home/cxim1/unix/minishellfromgit/loop.c
 minishell.h
-/home/cxim1/unix/minishell/minishell.h
+/home/cxim1/unix/minishellfromgit/minishell.h
 
-/home/cxim1/unix/minishell/minishell.h
+/home/cxim1/unix/minishellfromgit/minishell.h
 ft_printf/includes/printf.h
-/home/cxim1/unix/minishell/ft_printf/includes/printf.h
+/home/cxim1/unix/minishellfromgit/ft_printf/includes/printf.h
+sys/stat.h
+-
+sys/wait.h
+-
 

@@ -25,6 +25,25 @@ void	change_path(char *path, t_env *env)
 	}
 }
 
+char 	*string_path(char *str)
+{
+	str++;
+	str++;
+	return (str);
+}
+
+void 	check_home_path(char *home_path, char *path, t_env *env)
+{
+	char 	*tmp;
+	char 	*tmp2;
+
+	tmp = ft_strjoin(home_path, "/");
+	tmp2 = ft_strjoin(tmp, string_path(path));
+	change_path(tmp2, env);
+	free(tmp);
+	free(tmp2);
+}
+
 int 	todo_cd(char **args, t_env *env)
 {
 	char	*home_path;
@@ -35,9 +54,19 @@ int 	todo_cd(char **args, t_env *env)
 		change_path(home_path, env);
 		return (1);
 	}
-//	else
-//	{
-//
-//	}
+	else
+	{
+		if (args[0][0] == '-' && args[0][1] =='/')
+		{
+			check_home_path(home_path, args[0], env);
+			return (1);
+		}
+		else if (args[0][0] == '-' && !args[0][1])
+		{
+			change_path(find_env("OLDPWD", env),env);
+			return (1);
+		}
+		change_path(args[0], env);
+	}
 	return (1);
 }

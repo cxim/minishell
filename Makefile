@@ -1,6 +1,6 @@
 C_FLAGS =  -I
 NAME = minishell
-SRCS = main.c free.c loop.c my_split.c todo_cd.c todo_set_env.c
+SRCS = main.c free.c loop.c my_split.c todo_cd.c todo_set_env.c echo_exec.c exec_bin.c set_enveron.c unset_enveron.c
 ##G_FLAGS = -Wall -Werror -Wextra
 OBJECTS = $(SRCS:.c=.o)
 LIBFT = ft_printf/

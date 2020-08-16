@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/minishell.dir/echo_exec.c.o"
+  "CMakeFiles/minishell.dir/exec_bin.c.o"
   "CMakeFiles/minishell.dir/free.c.o"
   "CMakeFiles/minishell.dir/ft_printf/includes/libft/ft_atoi.c.o"
   "CMakeFiles/minishell.dir/ft_printf/includes/libft/ft_bzero.c.o"
@@ -112,8 +114,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell.dir/loop.c.o"
   "CMakeFiles/minishell.dir/main.c.o"
   "CMakeFiles/minishell.dir/my_split.c.o"
+  "CMakeFiles/minishell.dir/set_enveron.c.o"
   "CMakeFiles/minishell.dir/todo_cd.c.o"
   "CMakeFiles/minishell.dir/todo_set_env.c.o"
+  "CMakeFiles/minishell.dir/unset_enveron.c.o"
   "minishell"
   "minishell.pdb"
 )

@@ -1,6 +1,5 @@
 
 
-//#include <sys/wait.h>
 #include "minishell.h"
 #include <stdio.h>
 #include <sys/types.h>
@@ -51,12 +50,12 @@ int		main(int ac, char **av, char **environ)
 	copy_env(ac, av, environ, env);
 	shell_loop(env);
 	//test
-	int i = 0;
-	while (env->my_env[i])
-	{
-		ft_printf("%s\n", env->my_env[i]);
-		i++;
-	}
+//	int i = 0;
+//	while (env->my_env[i])
+//	{
+//		ft_printf("%s\n", env->my_env[i]);
+//		i++;
+//	}
 	free_arr(env->my_env);
 	free(env);
 	return (0);

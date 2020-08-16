@@ -125,4 +125,8 @@ add_executable(minishell
     my_split.c
     todo_cd.c
     todo_set_env.c
-    minishell.h)
+    minishell.h
+    echo_exec.c
+    exec_bin.c
+    set_enveron.c
+    unset_enveron.c)
