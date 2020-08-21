@@ -20,7 +20,8 @@ void 	remove_it(int id, t_env *env)
 		i++;
 		id_count++;
 	}
-	env->my_env = realloc_enveron(id_count - 1, env);
+	env->my_env[i] = NULL;
+//	env->my_env = realloc_enveron(id_count - 1, env);
 }
 
 int		todo_unset_env(char **array, t_env *env)
