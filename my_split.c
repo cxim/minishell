@@ -1,12 +1,20 @@
-//
-// Created by cxim1 on 23.06.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   my_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnarwhal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/08/22 16:58:18 by mnarwhal          #+#    #+#             */
+/*   Updated: 2020/08/22 17:00:13 by mnarwhal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "minishell.h"
 
-int 	count_words(char *line)
+int		count_words(char *line)
 {
-	int 	count;
+	int		count;
 
 	count = 0;
 	while (*line)
@@ -23,9 +31,9 @@ int 	count_words(char *line)
 	return (count);
 }
 
-char 	*get_words(const char *line)
+char	*get_words(const char *line)
 {
-	char 	*word;
+	char	*word;
 	int		i;
 
 	i = 0;
@@ -44,9 +52,9 @@ char 	*get_words(const char *line)
 
 char	**my_split(char *line)
 {
-	int 	words;
-	int 	i;
-	char 	**arr;
+	int		words;
+	int		i;
+	char	**arr;
 
 	words = count_words(line);
 	arr = (char **)malloc(sizeof(char *) * (words + 1));

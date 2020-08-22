@@ -1,6 +1,14 @@
-//
-// Created by cxim1 on 23.06.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   todo_cd.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnarwhal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/08/22 17:00:39 by mnarwhal          #+#    #+#             */
+/*   Updated: 2020/08/22 17:02:02 by mnarwhal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "minishell.h"
 
@@ -25,17 +33,17 @@ void	change_path(char *path, t_env *env)
 	}
 }
 
-char 	*string_path(char *str)
+char	*string_path(char *str)
 {
 	str++;
 	str++;
 	return (str);
 }
 
-void 	check_home_path(char *home_path, char *path, t_env *env)
+void	check_home_path(char *home_path, char *path, t_env *env)
 {
-	char 	*tmp;
-	char 	*tmp2;
+	char	*tmp;
+	char	*tmp2;
 
 	tmp = ft_strjoin(home_path, "/");
 	tmp2 = ft_strjoin(tmp, string_path(path));
@@ -44,7 +52,7 @@ void 	check_home_path(char *home_path, char *path, t_env *env)
 	free(tmp2);
 }
 
-int 	todo_cd(char **args, t_env *env)
+int		todo_cd(char **args, t_env *env)
 {
 	char	*home_path;
 
@@ -56,14 +64,14 @@ int 	todo_cd(char **args, t_env *env)
 	}
 	else
 	{
-		if (args[0][0] == '-' && args[0][1] =='/')
+		if (args[0][0] == '-' && args[0][1] == '/')
 		{
 			check_home_path(home_path, args[0], env);
 			return (1);
 		}
 		else if (args[0][0] == '-' && !args[0][1])
 		{
-			change_path(find_env("OLDPWD", env),env);
+			change_path(find_env("OLDPWD", env), env);
 			return (1);
 		}
 		change_path(args[0], env);

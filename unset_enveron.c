@@ -1,13 +1,21 @@
-//
-// Created by cxim1 on 16.08.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   unset_enveron.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnarwhal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/08/22 17:02:19 by mnarwhal          #+#    #+#             */
+/*   Updated: 2020/08/22 17:02:49 by mnarwhal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "minishell.h"
 
-void 	remove_it(int id, t_env *env)
+void	remove_it(int id, t_env *env)
 {
 	int		i;
-	int 	id_count;
+	int		id_count;
 
 	free(env->my_env[id]);
 	env->my_env[id] = NULL;
@@ -21,13 +29,12 @@ void 	remove_it(int id, t_env *env)
 		id_count++;
 	}
 	env->my_env[i] = NULL;
-//	env->my_env = realloc_enveron(id_count - 1, env);
 }
 
 int		todo_unset_env(char **array, t_env *env)
 {
 	int		i;
-	int 	id;
+	int		id;
 
 	i = 0;
 	id = 0;

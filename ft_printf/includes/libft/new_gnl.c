@@ -1,12 +1,20 @@
-//
-// Created by cxim1 on 21.06.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   new_gnl.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnarwhal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/08/22 17:11:00 by mnarwhal          #+#    #+#             */
+/*   Updated: 2020/08/22 17:12:33 by mnarwhal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 
 int		get_line(char **p_n, char **line, char **remainder)
 {
-	char		*temp;
+	char			*temp;
 
 	*p_n = *p_n ? *p_n : ft_strchr(*remainder, '\0');
 	if (**p_n == '\n')
@@ -25,6 +33,18 @@ int		get_line(char **p_n, char **line, char **remainder)
 		*line = ft_strdup(*remainder);
 		free(*remainder);
 		*remainder = NULL;
+		return (0);
+	}
+	return (1);
+}
+
+int		some_funk(int readed, char *remainder, char **line)
+{
+	if (readed < 0 && (!remainder || remainder[0] == 0))
+		return (-1);
+	else if (readed == 0 && (!remainder || remainder[0] == 0))
+	{
+		*line = ft_strdup("");
 		return (0);
 	}
 	return (1);
@@ -50,14 +70,10 @@ int		get_next_line2(int fd, char **line)
 		remainder = ft_strjoin(remainder, buf);
 		free(temp);
 		if ((p_n = ft_strchr(remainder, '\n')))
-			break;
+			break ;
 	}
-	if (readed < 0 && (!remainder || remainder[0] == 0))
-		return (-1);
-	else if (readed == 0 && (!remainder || remainder[0] == 0))
-	{
-		*line = ft_strdup("");
-		return(0);
-	}
-	return (get_line(&p_n, line, &remainder));
+	if (some_funk(readed, remainder, line) < 1)
+		return (some_funk(readed, remainder, line));
+	else
+		return (get_line(&p_n, line, &remainder));
 }

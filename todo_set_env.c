@@ -1,10 +1,18 @@
-//
-// Created by cxim1 on 23.06.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   todo_set_env.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnarwhal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/08/22 16:55:31 by mnarwhal          #+#    #+#             */
+/*   Updated: 2020/08/22 16:55:56 by mnarwhal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "minishell.h"
 
-char 	**realloc_env(int size, t_env *env)
+char	**realloc_env(int size, t_env *env)
 {
 	char	**new_env;
 	int		i;
@@ -22,7 +30,7 @@ char 	**realloc_env(int size, t_env *env)
 
 void	set_env(char *name, char *value, t_env *env)
 {
-	int 	poz;
+	int		poz;
 	char	*tmp;
 
 	poz = find_poz(name, env);

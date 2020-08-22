@@ -1,10 +1,18 @@
-//
-// Created by cxim1 on 16.08.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   exec_bin.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnarwhal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/08/22 16:53:51 by mnarwhal          #+#    #+#             */
+/*   Updated: 2020/08/22 16:54:52 by mnarwhal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "minishell.h"
 
-int 	exec_this(char *path, char **array, t_env *env)
+int		exec_this(char *path, char **array, t_env *env)
 {
 	pid_t	pid;
 
@@ -17,7 +25,7 @@ int 	exec_this(char *path, char **array, t_env *env)
 	return (1);
 }
 
-void 	error_output(char *string)
+void	error_output(char *string)
 {
 	ft_putstr("minishell: command not found: ");
 	ft_putendl(string);
@@ -27,8 +35,8 @@ int		exec_path(char **array, char **paths, t_env *env)
 {
 	int				i;
 	struct stat		fstat;
-	char 			*tmp;
-	char 			*tmp2;
+	char			*tmp;
+	char			*tmp2;
 
 	i = -1;
 	while (paths[++i])
@@ -50,11 +58,11 @@ int		exec_path(char **array, char **paths, t_env *env)
 	return (0);
 }
 
-int 	exec_bin(char **array, t_env *env)
+int		exec_bin(char **array, t_env *env)
 {
-	int 			catch_res;
+	int				catch_res;
 	struct stat		fstat;
-	char 			**paths;
+	char			**paths;
 
 	catch_res = 0;
 	if (lstat(array[0], &fstat) != -1)

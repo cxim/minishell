@@ -1,21 +1,18 @@
-//
-// Created by cxim1 on 23.06.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   loop.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnarwhal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/08/22 17:03:25 by mnarwhal          #+#    #+#             */
+/*   Updated: 2020/08/22 17:05:41 by mnarwhal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "minishell.h"
 
-int 	find_start(const char *s1, const char *s2)
-{
-	int 	i;
-
-	i = -1;
-	while (s2[++i])
-		if (s1[i] != s2[i])
-			return (0);
-	return (1);
-}
-
-char 	*find_env(char *line, t_env *env)
+char	*find_env(char *line, t_env *env)
 {
 	int		i;
 	char	*tmp;
@@ -35,7 +32,7 @@ char 	*find_env(char *line, t_env *env)
 	return (NULL);
 }
 
-int 	find_poz(char *line, t_env *env)
+int		find_poz(char *line, t_env *env)
 {
 	int		i;
 	char	*tmp;
@@ -55,7 +52,7 @@ int 	find_poz(char *line, t_env *env)
 	return (i);
 }
 
-void 	print_env(t_env *env)
+void	print_env(t_env *env)
 {
 	int		i;
 
@@ -67,7 +64,7 @@ void 	print_env(t_env *env)
 	}
 }
 
-int 	exec_oper(char **args, t_env *env)
+int		exec_oper(char **args, t_env *env)
 {
 	if (!args || args[0] == NULL)
 		return (1);
@@ -86,26 +83,22 @@ int 	exec_oper(char **args, t_env *env)
 		print_env(env);
 		return (1);
 	}
-	else (exec_bin(args, env));
+	else
+		(exec_bin(args, env));
 	return (1);
 }
 
 void	shell_loop(t_env *env)
 {
-	char 	*get_cmd;
-	char 	**args;
-	int 	cycle;
+	char	*get_cmd;
+	char	**args;
+	int		cycle;
 
 	cycle = 1;
 	while (cycle)
 	{
 		ft_putstr("My_Minishell_$>");
 		get_next_line2(0, &get_cmd);
-		//free(get_cmd);
-//		if (ft_strcmp(get_cmd, "exit") == 0) {
-//			free(get_cmd);
-//			break;
-//		}
 		args = my_split(get_cmd);
 		free(get_cmd);
 		cycle = exec_oper(args, env);

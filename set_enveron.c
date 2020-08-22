@@ -1,12 +1,20 @@
-//
-// Created by cxim1 on 16.08.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   set_enveron.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnarwhal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/08/22 16:56:27 by mnarwhal          #+#    #+#             */
+/*   Updated: 2020/08/22 16:57:38 by mnarwhal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "minishell.h"
 
-char 	**realloc_enveron(int new_len, t_env *env)
+char	**realloc_enveron(int new_len, t_env *env)
 {
-	char 	**new_env;
+	char	**new_env;
 	int		i;
 
 	i = -1;
@@ -20,10 +28,10 @@ char 	**realloc_enveron(int new_len, t_env *env)
 	return (new_env);
 }
 
-void 	set_this(char *name, char *value, t_env *env)
+void	set_this(char *name, char *value, t_env *env)
 {
 	int		id;
-	char 	*tmp;
+	char	*tmp;
 
 	id = find_poz(name, env);
 	tmp = ft_strjoin("=", value);
@@ -43,7 +51,7 @@ void 	set_this(char *name, char *value, t_env *env)
 	free(tmp);
 }
 
-int		todo_set_env(char **array, t_env  *env)
+int		todo_set_env(char **array, t_env *env)
 {
 	if (!array || (array[0] && !array[1]))
 	{

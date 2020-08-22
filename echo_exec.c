@@ -1,21 +1,29 @@
-//
-// Created by cxim1 on 16.08.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   echo_exec.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnarwhal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/08/22 16:50:09 by mnarwhal          #+#    #+#             */
+/*   Updated: 2020/08/22 16:51:16 by mnarwhal         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "minishell.h"
 
-void 	output_path(char *string, t_env *env)
+void	output_path(char *string, t_env *env)
 {
-	char 	*path;
+	char	*path;
 
 	path = find_env(string + 1, env);
 	ft_putstr(path);
 }
 
-void 	echo_string(char *string, t_env *env)
+void	echo_string(char *string, t_env *env)
 {
-	int 	start;
-	int 	end;
+	int		start;
+	int		end;
 
 	start = 0;
 	end = (int)ft_strlen(string) - 1;
@@ -32,7 +40,7 @@ void 	echo_string(char *string, t_env *env)
 	}
 }
 
-int 	todo_echo(char **array, t_env *env)
+int		todo_echo(char **array, t_env *env)
 {
 	int		i;
 
