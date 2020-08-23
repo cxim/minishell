@@ -64,7 +64,7 @@ int		todo_cd(char **args, t_env *env)
 	}
 	else
 	{
-		if (args[0][0] == '-' && args[0][1] == '/')
+		if (args[0][0] == '~' && args[0][1] == '/')
 		{
 			check_home_path(home_path, args[0], env);
 			return (1);
